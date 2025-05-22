@@ -1,0 +1,31 @@
+#entrar{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    height: 30px;
+    width: 170px;
+    background-color: rgb(120, 255, 0);
+}
+#iconJogo{
+    position: absolute;
+    height: 20px;
+    top: 25%;
+    left: 50.5%;
+}
+#iconJogo:hover{
+    animation: rodar 500ms;
+}
+#aa{
+    position: absolute;
+    top: -25%;
+}
+
+@keyframes rodar{
+    0% {
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+

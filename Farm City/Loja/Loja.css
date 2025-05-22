@@ -1,0 +1,57 @@
+#Fechar{
+    position: absolute;
+    top: 0%;
+    left: 98.5%;
+    height: 20px;
+}
+.EncolherAoSair{
+    animation: EncolherAoClicar 500ms;
+}
+@keyframes EncolherAoClicar{
+    50%{
+        height: 75%;
+    }
+}
+.MateriaisLoja{
+    position: absolute;
+    height: 100px;
+    border-radius: 10%;
+    text-align: center;
+    background-color: rgb(230, 200, 150);
+}
+#aaaaa{
+    width: 100px;
+    top: 60px;
+}
+.BotõesLoja{
+    position: absolute;
+    height: 30px;
+    width: 80px;
+    top: 60px;
+    left: 10px;
+    border-radius: 10%;
+    background-color: goldenrod;
+}
+#a008{
+    position: sticky;
+    height: 20px;
+    width: 50px;
+}
+#a009{
+    position: fixed;
+    height: 15px;
+    width: 30px;  
+}
+#a010{
+    position: fixed;
+    left: 70px;
+    height: 15px;
+    width: 15px; 
+    border-radius: 100%;
+    background-color: rgb(255, 210, 61);
+}
+#a0101{
+    position: relative;
+    top: -24px;
+    left: 4px;
+}

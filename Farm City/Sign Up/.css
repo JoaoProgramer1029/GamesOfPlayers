@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(222, 222, 222);
+    text-align: center;
+}
+.a{
+    width: 170px;
+    height: 25px;
+    border-radius: 5%;
+    left: 44.5%;
+}
+#a{
+    position: absolute;
+    top: 45%;
+}
+#b{
+    position: absolute;
+    top: 50%;
+}
+#c{
+    position: absolute;
+    background-color: rgb(160, 160, 160);
+    text-align: center;
+    top: 17%;
+    left: 38%;
+    height: 500px;
+    width: 400px;
+    border-radius: 3%;
+}
+#d{
+    position: absolute;
+    height: 50px;
+    left: 96%;
+    top: 1%;
+}
+#Check{
+    position: absolute;
+    height: 30px;
+    top: 60%;
+}
+#e{
+    position: absolute;
+    background-color: rgb(160, 160, 160);
+    visibility: hidden;
+    top: 17%;
+    left: 38%;
+    height: 500px;
+    width: 400px;
+    border-radius: 3%;
+}
